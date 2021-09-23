@@ -1,0 +1,97 @@
+.container {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 200px 200px 200px;
+    grid-template-areas:
+            "grid-a grid-a grid-a"
+            "grid-b grid-b grid-c"
+            "grid-d grid-e grid-f"
+            "grid-g grid-g grid-h"
+            "grid-i grid-i grid-i";
+
+}
+
+.grid-item {
+    background-color: #ff9f1c;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-a {
+    grid-area: grid-a;
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0 8em 0 8em;
+    padding: 0;
+    display: flex;
+    background-color: #FFFFFF;
+    position: center;
+    border-radius: 0.3em;
+}
+
+.navigation ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.navigation ul li:nth-of-type(7) {
+    display: flex;
+}
+
+.navigation ul li a {
+    background-color: #FFF;
+    block-size: 40px;
+    display: block;
+    text-decoration: none;
+    width: 120px;
+}
+
+.navigation {
+    top: 2em;
+    position: absolute;
+    text-align: center;
+    display: inline-flex;
+}
+
+}
+
+.grid-b{
+    grid-area: grid-b;
+}
+
+.grid-c{
+    grid-area: grid-c;
+}
+
+.grid-d{
+    grid-area: grid-d;
+}
+
+.grid-e{
+    grid-area: grid-e;
+}
+
+.grid-f{
+    grid-area:grid-f;
+}
+
+.grid-g{
+    grid-area:grid-g;
+}
+
+
+.grid-h{
+    grid-area:grid-h;
+}
+
+
+.grid-i{
+    grid-area:grid-i;
+}

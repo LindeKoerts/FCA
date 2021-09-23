@@ -15,3 +15,160 @@
     white-space: nowrap;
     width: 1px;
    }
+
+.main-background{
+position: relative;
+    background-color: #e5f1fa;
+    height: 900px;
+}
+.backgound-img-main{
+    display: flex;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+
+.backgound-img-main >img{
+    width: 50%;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0 8em 0 8em;
+    padding: 0;
+    display: flex;
+    background-color: #FFFFFF;
+    position: center;
+    border-radius: 0.3em;
+}
+
+.navigation ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.navigation ul li:nth-of-type(7){
+    display: flex;
+}
+
+.navigation ul li a {
+    background-color: #FFF ;
+    block-size: 40px;
+    display: block;
+    text-decoration: none;
+    width: 120px;
+}
+
+.navigation{
+    top: 2em;
+    position: absolute;
+    text-align: center;
+    display: inline-flex;
+}
+
+.jobs {
+    text-align: center;
+    background-color: rgb(12,71,116);
+    display: block;
+}
+
+
+button{
+    background-color: #FFFFFF;
+}
+
+h2 {
+    margin: 3em 2em;
+    padding: 1.5em ;
+    color: #FFFFFF;
+}
+.newcolor {
+    color: rgb(12,71,116);
+    text-align: center;
+}
+
+/* image resize*/
+.resize1 {
+    width: 400px;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+.resize2 {
+    width: 200px;
+    height: auto;
+    float: inside;
+    position: relative;
+}
+
+.resize3 {
+    width: 200px;
+    height: auto;
+    float: inside;
+    position: relative;
+}
+
+.resize4{
+    width: 200px;
+    height: auto;
+    float: inside;
+    position: relative;
+}
+
+.resize5 {
+    width: 200px;
+    height: auto;
+    float: inside;
+    position: relative;
+}
+
+.resize6 {
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+.whychoose {
+    background-color: rgb(229,241,250);
+
+}
+
+.newcolor2 {
+    color:rgb(12,71,116);
+    text-align: left;
+}
+
+.list {
+    color: rgb(113,113,113);
+}
+
+.resize6 {
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+.footer ul {
+    background-color: rgb(12, 71, 116);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.resize7 {
+    width: 50px;
+    height: auto;
+    float: right;
+}
+
+.resize8 {
+    width: 30px;
+}
+
+.colortext {
+    color: #FFFFFF;
+}
+
