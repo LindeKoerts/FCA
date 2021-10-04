@@ -18,8 +18,12 @@
 
 .main-background{
 position: relative;
-    background-color: #e5f1fa;
-    height: 900px;
+   /* background-color: #e5f1fa;
+    height: 900px; */
+    background-image: url(../images/background-blue.jpeg);
+    height: 77vh;
+    width: 100%;
+    background-size: contain;
 }
 .backgound-img-main{
     display: flex;
@@ -30,58 +34,73 @@ position: relative;
 
 .backgound-img-main >img{
     width: 50%;
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0 8em 0 8em;
-    padding: 0;
-    display: flex;
-    background-color: #FFFFFF;
-    position: center;
-    border-radius: 0.3em;
-}
-
-.navigation ul li{
-    float: left;
-    width: 20%;
-    text-align: center;
-}
-
-.navigation ul li:nth-of-type(7){
-    display: flex;
-}
-
-.navigation ul li a {
-    background-color: #FFF ;
-    block-size: 40px;
-    display: block;
-    text-decoration: none;
-    width: 120px;
+    position: sticky;
 }
 
 .navigation{
     top: 2em;
-    position: absolute;
+    position: relative;
     text-align: center;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.3em;
+
+}
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #FFFFFF;
+    display:flex;
+    border-radius: 0.3em;
+    width: 50em;
+    justify-content: center;
+}
+
+.navigation ul li{
+    text-align: center;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    vertical-align: sub;
+    font-size: 1.3em;
 }
 
 .jobs {
     text-align: center;
     background-color: rgb(12,71,116);
     display: block;
+    height: 40vh;
+    position: relative;
 }
-
+.jobs>img{
+    position: absolute;
+    top: 5em;
+    right: 1em;
+    width: 20%;
+}
 
 button{
     background-color: #FFFFFF;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(12, 71, 166);
+    text-align: center;
 }
 
 h2 {
     margin: 3em 2em;
     padding: 1.5em ;
     color: #FFFFFF;
+}
+
+.bookNow {
+    text-align: center;
 }
 .newcolor {
     color: rgb(12,71,116);
@@ -171,4 +190,71 @@ h2 {
 .colortext {
     color: #FFFFFF;
 }
+
+.bookNow{
+    position: absolute;
+    top: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.checkin {
+    top: 2em;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.3em;
+
+}
+.checkin ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #FFFFFF;
+    display:inline-flex;
+    border-radius: 0.3em;
+}
+
+.checkin ul li{
+    text-align: center;
+    padding: 0.5em;
+    display:inline-block;
+    margin: auto;
+}
+
+.checkin ul li a {
+    text-decoration: none;
+    vertical-align: sub;
+}
+
+.search {
+    background-color: rgb(12,71,116);
+    color: #FFFFFF;
+
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgwhychoose {
+    position: absolute;
+    top: 5em;
+    right: 1em;
+    width: 50%;
+}
+
+
 
